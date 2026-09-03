@@ -12,13 +12,17 @@
 |---|---|---|
 | [CLAUDE.md](../CLAUDE.md) | 작업 방법론 — 오케스트레이션 지침 | 자동 로드 |
 | [01_PROJECT.md](01_PROJECT.md) | 목표·범위·마일스톤·현재 단계 | 요구사항을 판단할 때 |
-| [02_ARCHITECTURE.md](02_ARCHITECTURE.md) | 스택·구조·규약·실행 방법 | 코드를 건드리기 전 |
+| [briefs/_TEMPLATE.md](briefs/_TEMPLATE.md) | 브리프(B)·설명(G)·워크시트(W) 양식 | 소통자·요청자가 문서를 만들 때 |
+| briefs/B-###_*.md | 요구 브리프 — 사용자 요구를 지휘자용으로 정리(소통자) | 명세를 쓰기 전 |
+| briefs/G-###_*.md | 설명·브리핑·시각화(소통자) | 사용자에게 전달할 때만(지휘자는 읽지 않음) |
+| briefs/W-###_*.md | 사용자 직접 작업 워크시트(요청자, 판 번호 관리) | 사용자 작업을 요청할 때, 완료 확인 시 |
+| [02_ARCHITECTURE.md](02_ARCHITECTURE.md) | 스택·구조·모듈·소유권 지도·규약·실행 방법 | 코드를 건드리기 전, 모듈 분해 전 |
 | [03_RISKS.md](03_RISKS.md) | 위험 대장 | 위험을 평가할 때, 새 위험 발견 시 |
 | [04_DECISIONS.md](04_DECISIONS.md) | 의사결정 기록 | "왜 이렇게 돼 있지?" 싶을 때 |
 | [specs/SPECS.md](specs/SPECS.md) | 기능명세 보드 | 기능 요청 접수 시, 티켓 분해 전 |
-| specs/F-###_*.md | 개별 기능명세 | 해당 기능을 작업할 때만 |
+| specs/F-###_*.md | 개별 기능명세 (모듈 지도 포함) | 해당 기능을 작업할 때만 |
 | [tasks/BACKLOG.md](tasks/BACKLOG.md) | 작업 현황판 | 작업 시작·종료 시 |
-| tasks/T-###_*.md | 개별 작업 티켓 | 해당 작업을 진행할 때만 |
+| tasks/T-###_*.md | 개별 작업 티켓 — 세션 인계 문서, 실행자는 '보고' 절만 작성 | 해당 작업을 진행할 때만 |
 | [experience/AGENTS.md](experience/AGENTS.md) | 위임 대장 + 배정 보정 규칙 | 모델 배정 직전, 위임 검증 완료 직후 |
 | [experience/ERRORS.md](experience/ERRORS.md) | 오류 사례집(증거→판단→수정→개선) | 티켓 컨텍스트 작성 시(키워드 검색), 오류 조우·기록 시 |
 | [experience/LESSONS.md](experience/LESSONS.md) | 증류된 노하우 | 작업을 계획·분해할 때 |
